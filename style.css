@@ -3,8 +3,11 @@ body {
   color: #333333;
   font-size: 14px;
   line-height: 1.6em;
-  background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%),
-  url("https://source.unsplash.com/Mptbg_EWLUs/1600x900") top right no-repeat fixed;
+
+    background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%),
+  url(images/prague.jpg) no-repeat center center fixed;
+  background-size: cover;
+
 
 }
 
@@ -67,7 +70,7 @@ tr {
   padding: 20px;
 }
 
-.img-cicrle {
+.img-circle {
   border-radius: 50%
   }
 
@@ -166,3 +169,48 @@ tr {
   justify-content: space-between;
   align-items: center;
 }
+
+
+}
+.card-link:hover{
+  opacity: 0.1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+  background: url(images/footer-bg.png) no-repeat; padding: 40px 0 0 0;
+  overflow: hidden; margin: 0 0 30px 0;
+}
+  #footer p#copyright {
+    font-size: 12px; float: left; margin: 0 0 0 30px; color: #b8b6b2;
+  }
+  #footer p#back-top {
+    font-size: 12px; float: right; margin: 0 30px 0 0;
+  }
+    #footer a {
+    color: #a12121; text-decoration: none;
+  }
+    #footer a:hover {
+      color: #671111;
+    }
